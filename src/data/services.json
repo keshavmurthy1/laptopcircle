@@ -1,0 +1,149 @@
+[
+  {
+    "slug": "laptop-repair-bengaluru",
+    "title": "Laptop Repair in Bengaluru",
+    "shortTitle": "Laptop Repair",
+    "icon": "laptop",
+    "excerpt": "Expert Windows laptop repair for all brands with genuine parts and fast turnaround.",
+    "metaTitle": "Laptop Repair Bengaluru | Affordable Windows Laptop Service | VENIRA",
+    "metaDescription": "Professional laptop repair in Bengaluru for Dell, HP, Lenovo, ASUS & Acer. Genuine parts, affordable pricing, pickup & delivery. Book your repair today.",
+    "keyword": "Laptop repair Bengaluru",
+    "description": "VENIRA LAPTOP CIRCLE offers professional laptop repair services in Bengaluru for all major Windows laptop brands. From motherboard issues to keyboard replacement, our experienced technicians diagnose and fix problems using genuine spare parts. We provide transparent pricing, fast turnaround, and doorstep pickup and delivery across the city.",
+    "benefits": [
+      "All Windows laptop brands supported",
+      "Free diagnosis with repair booking",
+      "Genuine and compatible spare parts",
+      "Same-day repair for common issues",
+      "6-month service warranty on repairs",
+      "Pickup and delivery across Bengaluru"
+    ],
+    "pricingNote": "Repair costs start from ₹499 depending on the issue. Get a free quote via WhatsApp.",
+    "relatedSlugs": ["display-replacement-bengaluru", "ssd-upgrade-bengaluru", "general-servicing-bengaluru"]
+  },
+  {
+    "slug": "macbook-repair-bengaluru",
+    "title": "MacBook Repair in Bengaluru",
+    "shortTitle": "MacBook Repair",
+    "icon": "macbook",
+    "excerpt": "Specialized Apple MacBook repair and servicing by certified technicians in Bengaluru.",
+    "metaTitle": "MacBook Repair Bengaluru | MacBook Service Center | VENIRA",
+    "metaDescription": "Trusted MacBook repair in Bengaluru. Screen, battery, logic board & keyboard fixes. MacBook service center with pickup & delivery. Book MacBook repair now.",
+    "keyword": "MacBook repair Bengaluru",
+    "description": "Our MacBook service center in Bengaluru specializes in Apple laptop repairs including MacBook Air and MacBook Pro models. We handle display issues, battery replacement, trackpad repair, logic board diagnostics, and macOS troubleshooting with precision and care.",
+    "benefits": [
+      "MacBook Air & Pro specialists",
+      "Original and OEM-quality parts",
+      "Logic board & water damage repair",
+      "Battery & display replacement",
+      "macOS installation and optimization",
+      "Secure data handling during repair"
+    ],
+    "pricingNote": "MacBook repairs quoted after diagnosis. Contact us for a free estimate.",
+    "relatedSlugs": ["display-replacement-bengaluru", "data-recovery-bengaluru", "ssd-upgrade-bengaluru"]
+  },
+  {
+    "slug": "display-replacement-bengaluru",
+    "title": "Laptop Screen Replacement in Bengaluru",
+    "shortTitle": "Display Replacement",
+    "icon": "display",
+    "excerpt": "Cracked or flickering screen? Fast laptop screen replacement for Windows and MacBook.",
+    "metaTitle": "Laptop Screen Replacement Bengaluru | Display Repair | VENIRA",
+    "metaDescription": "Laptop screen replacement in Bengaluru for all brands. Fix cracked, broken & flickering displays. MacBook & Windows laptop display repair with warranty.",
+    "keyword": "Laptop screen replacement Bengaluru",
+    "description": "A damaged laptop screen shouldn't stop your work. VENIRA LAPTOP CIRCLE provides professional laptop screen replacement in Bengaluru for Windows laptops and MacBooks. We source quality displays and install them with precision, restoring clarity and touch functionality.",
+    "benefits": [
+      "HD, FHD, and Retina display options",
+      "Windows & MacBook screen replacement",
+      "Same-day replacement for most models",
+      "Color-calibrated panel installation",
+      "Post-installation quality testing",
+      "Warranty on display replacement"
+    ],
+    "pricingNote": "Screen replacement from ₹2,999 based on model and panel type.",
+    "relatedSlugs": ["laptop-repair-bengaluru", "macbook-repair-bengaluru"]
+  },
+  {
+    "slug": "ssd-upgrade-bengaluru",
+    "title": "SSD Upgrade in Bengaluru",
+    "shortTitle": "SSD Upgrade",
+    "icon": "ssd",
+    "excerpt": "Boost laptop speed with SSD upgrade — faster boot, apps, and file transfers in Bengaluru.",
+    "metaTitle": "SSD Upgrade Bengaluru | Laptop SSD Installation | VENIRA",
+    "metaDescription": "SSD upgrade in Bengaluru for faster laptops. Replace HDD with SSD, clone your data, and enjoy instant boot times. Expert installation with warranty.",
+    "keyword": "SSD upgrade Bengaluru",
+    "description": "Upgrade your slow laptop with an SSD installation in Bengaluru. We replace outdated HDDs with high-speed SSDs, clone your existing data, and optimize your system for maximum performance. Ideal for older laptops that need a new lease on life.",
+    "benefits": [
+      "Up to 10x faster boot times",
+      "Samsung, WD, Crucial SSD options",
+      "Full data migration from old drive",
+      "OS optimization after upgrade",
+      "NVMe and SATA SSD support",
+      "Affordable upgrade packages"
+    ],
+    "pricingNote": "SSD upgrade packages from ₹1,999 including installation.",
+    "relatedSlugs": ["ram-upgrade-bengaluru", "general-servicing-bengaluru"]
+  },
+  {
+    "slug": "ram-upgrade-bengaluru",
+    "title": "RAM Upgrade in Bengaluru",
+    "shortTitle": "RAM Upgrade",
+    "icon": "ram",
+    "excerpt": "Multitask smoothly with professional RAM upgrade for laptops in Bengaluru.",
+    "metaTitle": "RAM Upgrade Bengaluru | Laptop Memory Upgrade | VENIRA",
+    "metaDescription": "Laptop RAM upgrade in Bengaluru. Increase memory for faster multitasking. Compatible RAM installation for Dell, HP, Lenovo, ASUS & more.",
+    "keyword": "RAM upgrade Bengaluru",
+    "description": "Running out of memory causes lag and crashes. Our RAM upgrade service in Bengaluru adds compatible memory modules to your laptop, enabling smoother multitasking, better performance for creative apps, and improved overall responsiveness.",
+    "benefits": [
+      "Compatible RAM for all brands",
+      "8GB, 16GB, 32GB upgrade options",
+      "Dual-channel configuration setup",
+      "Performance testing after install",
+      "DDR4 and DDR5 support",
+      "Quick same-day installation"
+    ],
+    "pricingNote": "RAM upgrades from ₹999 plus RAM cost based on capacity.",
+    "relatedSlugs": ["ssd-upgrade-bengaluru", "laptop-repair-bengaluru"]
+  },
+  {
+    "slug": "data-recovery-bengaluru",
+    "title": "Data Recovery in Bengaluru",
+    "shortTitle": "Data Recovery",
+    "icon": "data",
+    "excerpt": "Recover lost files from damaged, formatted, or failed laptop drives in Bengaluru.",
+    "metaTitle": "Data Recovery Bengaluru | Laptop Data Retrieval | VENIRA",
+    "metaDescription": "Professional laptop data recovery in Bengaluru. Recover files from crashed HDDs, SSDs & corrupted drives. Secure and confidential data retrieval.",
+    "keyword": "Data recovery Bengaluru",
+    "description": "Lost important files? VENIRA LAPTOP CIRCLE provides laptop data recovery in Bengaluru for failed hard drives, corrupted SSDs, accidentally formatted partitions, and physically damaged storage. We use professional tools and maintain strict confidentiality.",
+    "benefits": [
+      "HDD, SSD, and NVMe recovery",
+      "Deleted file restoration",
+      "Corrupted partition repair",
+      "Confidential data handling",
+      "Success-based assessment first",
+      "Recovered data on secure media"
+    ],
+    "pricingNote": "Data recovery quoted after free drive assessment.",
+    "relatedSlugs": ["laptop-repair-bengaluru", "macbook-repair-bengaluru"]
+  },
+  {
+    "slug": "general-servicing-bengaluru",
+    "title": "General Laptop Servicing in Bengaluru",
+    "shortTitle": "General Servicing",
+    "icon": "service",
+    "excerpt": "Complete laptop servicing — cleaning, thermal paste, OS tune-up, and health check.",
+    "metaTitle": "Laptop Service Center Bengaluru | General Servicing | VENIRA",
+    "metaDescription": "Laptop service center in Bengaluru offering general servicing, cleaning, thermal paste replacement, OS optimization & health diagnostics.",
+    "keyword": "Laptop service center Bengaluru",
+    "description": "Keep your laptop running like new with our general servicing in Bengaluru. Includes internal cleaning, thermal paste replacement, fan servicing, OS optimization, virus removal, and a complete health diagnostic report.",
+    "benefits": [
+      "Deep internal cleaning",
+      "Thermal paste & fan servicing",
+      "OS optimization & cleanup",
+      "Battery health check",
+      "Driver and firmware updates",
+      "Detailed service report"
+    ],
+    "pricingNote": "General servicing packages from ₹799.",
+    "relatedSlugs": ["laptop-repair-bengaluru", "ssd-upgrade-bengaluru"]
+  }
+]

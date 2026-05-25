@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dell-latitude-5490",
+    "brand": "Dell",
+    "model": "Dell Latitude 5490",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=400&fit=crop",
+    "specs": "Intel i5 8th Gen | 8GB RAM | 256GB SSD | 14\" FHD",
+    "condition": "Excellent",
+    "price": 24999,
+    "category": "business"
+  },
+  {
+    "id": "hp-elitebook-840",
+    "brand": "HP",
+    "model": "HP EliteBook 840 G5",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&h=400&fit=crop",
+    "specs": "Intel i5 8th Gen | 16GB RAM | 512GB SSD | 14\" FHD",
+    "condition": "Like New",
+    "price": 32999,
+    "category": "business"
+  },
+  {
+    "id": "lenovo-thinkpad-t480",
+    "brand": "Lenovo",
+    "model": "Lenovo ThinkPad T480",
+    "image": "https://images.unsplash.com/photo-1525547711957-4d2b7597f7bd?w=600&h=400&fit=crop",
+    "specs": "Intel i7 8th Gen | 16GB RAM | 512GB SSD | 14\" FHD",
+    "condition": "Excellent",
+    "price": 35999,
+    "category": "business"
+  },
+  {
+    "id": "asus-vivobook-15",
+    "brand": "ASUS",
+    "model": "ASUS VivoBook 15",
+    "image": "https://images.unsplash.com/photo-1602080858427-ee72e681d20d?w=600&h=400&fit=crop",
+    "specs": "AMD Ryzen 5 | 8GB RAM | 512GB SSD | 15.6\" FHD",
+    "condition": "Good",
+    "price": 28999,
+    "category": "everyday"
+  },
+  {
+    "id": "acer-aspire-5",
+    "brand": "Acer",
+    "model": "Acer Aspire 5",
+    "image": "https://images.unsplash.com/photo-1587613865763-974f05aed5a0?w=600&h=400&fit=crop",
+    "specs": "Intel i5 11th Gen | 8GB RAM | 512GB SSD | 15.6\" FHD",
+    "condition": "Excellent",
+    "price": 31999,
+    "category": "everyday"
+  },
+  {
+    "id": "macbook-air-2019",
+    "brand": "Apple",
+    "model": "MacBook Air 2019",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=400&fit=crop",
+    "specs": "Intel i5 | 8GB RAM | 256GB SSD | 13.3\" Retina",
+    "condition": "Excellent",
+    "price": 42999,
+    "category": "premium"
+  },
+  {
+    "id": "dell-inspiron-15",
+    "brand": "Dell",
+    "model": "Dell Inspiron 15 3000",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=400&fit=crop",
+    "specs": "Intel i3 10th Gen | 8GB RAM | 256GB SSD | 15.6\" HD",
+    "condition": "Good",
+    "price": 19999,
+    "category": "budget"
+  },
+  {
+    "id": "hp-pavilion-14",
+    "brand": "HP",
+    "model": "HP Pavilion 14",
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=600&h=400&fit=crop",
+    "specs": "AMD Ryzen 5 | 8GB RAM | 512GB SSD | 14\" FHD",
+    "condition": "Excellent",
+    "price": 27999,
+    "category": "everyday"
+  },
+  {
+    "id": "lenovo-ideapad-3",
+    "brand": "Lenovo",
+    "model": "Lenovo IdeaPad 3",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=400&fit=crop",
+    "specs": "Intel i5 11th Gen | 8GB RAM | 512GB SSD | 15.6\" FHD",
+    "condition": "Good",
+    "price": 26999,
+    "category": "budget"
+  },
+  {
+    "id": "asus-zenbook-14",
+    "brand": "ASUS",
+    "model": "ASUS ZenBook 14",
+    "image": "https://images.unsplash.com/photo-1602080858427-ee72e681d20d?w=600&h=400&fit=crop",
+    "specs": "Intel i7 10th Gen | 16GB RAM | 512GB SSD | 14\" FHD",
+    "condition": "Like New",
+    "price": 44999,
+    "category": "premium"
+  },
+  {
+    "id": "macbook-pro-2018",
+    "brand": "Apple",
+    "model": "MacBook Pro 13\" 2018",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=400&fit=crop",
+    "specs": "Intel i5 | 8GB RAM | 256GB SSD | 13\" Retina",
+    "condition": "Good",
+    "price": 48999,
+    "category": "premium"
+  },
+  {
+    "id": "acer-nitro-5",
+    "brand": "Acer",
+    "model": "Acer Nitro 5",
+    "image": "https://images.unsplash.com/photo-1587613865763-974f05aed5a0?w=600&h=400&fit=crop",
+    "specs": "Intel i5 10th Gen | 8GB RAM | 512GB SSD | GTX 1650 | 15.6\" FHD",
+    "condition": "Excellent",
+    "price": 39999,
+    "category": "gaming"
+  }
+]
