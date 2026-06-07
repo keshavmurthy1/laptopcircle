@@ -1,0 +1,44 @@
+[
+  {
+    "id": "new-dell",
+    "brand": "Dell",
+    "model": "Dell Inspiron & Latitude",
+    "specs": "Intel Core i3/i5/i7 | 8GB–16GB RAM | 256GB–512GB SSD",
+    "highlights": "Ideal for students, professionals, and business use"
+  },
+  {
+    "id": "new-hp",
+    "brand": "HP",
+    "model": "HP Pavilion & EliteBook",
+    "specs": "AMD Ryzen & Intel options | 8GB–16GB RAM | FHD display",
+    "highlights": "Reliable performance for work and everyday computing"
+  },
+  {
+    "id": "new-lenovo",
+    "brand": "Lenovo",
+    "model": "Lenovo IdeaPad & ThinkPad",
+    "specs": "Intel/AMD processors | 8GB–32GB RAM | SSD storage",
+    "highlights": "Durable builds with excellent keyboard and battery life"
+  },
+  {
+    "id": "new-asus",
+    "brand": "ASUS",
+    "model": "ASUS VivoBook & ZenBook",
+    "specs": "Slim designs | Full HD displays | Fast SSD options",
+    "highlights": "Stylish laptops for productivity and portability"
+  },
+  {
+    "id": "new-acer",
+    "brand": "Acer",
+    "model": "Acer Aspire & Swift Series",
+    "specs": "Budget to premium configs | SSD | Lightweight options",
+    "highlights": "Great value new laptops for all budgets"
+  },
+  {
+    "id": "new-apple",
+    "brand": "Apple",
+    "model": "MacBook Air & MacBook Pro",
+    "specs": "Apple M-series chips | Retina display | All-day battery",
+    "highlights": "Premium Apple laptops with official warranty support"
+  }
+]

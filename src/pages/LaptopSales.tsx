@@ -3,6 +3,7 @@ import { SEO } from '@/seo/SEO';
 import { pageMeta } from '@/seo/defaultMeta';
 import { HeroSection } from '@/components/HeroSection';
 import { ProductCard } from '@/components/ProductCard';
+import { NewLaptopsSection } from '@/components/NewLaptopsSection';
 import { ContactCTA } from '@/components/ContactCTA';
 import { laptops, laptopBrands, conditionFilters } from '@/data/laptops';
 import { cn } from '@/utils/cn';
@@ -11,16 +12,14 @@ export default function LaptopSales() {
   const meta = pageMeta.laptopSales;
   const [brand, setBrand] = useState<string>('All');
   const [condition, setCondition] = useState<string>('All');
-  const [maxPrice, setMaxPrice] = useState<number>(60000);
 
   const filtered = useMemo(() => {
     return laptops.filter((l) => {
       const brandMatch = brand === 'All' || l.brand === brand;
       const conditionMatch = condition === 'All' || l.condition === condition;
-      const priceMatch = l.price <= maxPrice;
-      return brandMatch && conditionMatch && priceMatch;
+      return brandMatch && conditionMatch;
     });
-  }, [brand, condition, maxPrice]);
+  }, [brand, condition]);
 
   return (
     <>
@@ -31,6 +30,7 @@ export default function LaptopSales() {
         keywords={meta.keywords}
       />
       <HeroSection compact />
+
       <section className="section-padding">
         <div className="container-custom">
           <h1 className="font-display text-3xl font-bold text-primary sm:text-4xl">
@@ -39,10 +39,10 @@ export default function LaptopSales() {
           <p className="mt-4 max-w-3xl text-lg text-slate-600">
             Quality <strong>refurbished laptops in Bengaluru</strong> from Dell, HP, Lenovo,
             ASUS, Acer, and Apple. Every device is tested and backed by warranty. Use filters
-            below or inquire instantly on WhatsApp.
+            below or inquire instantly on WhatsApp for details and availability.
           </p>
 
-          <div className="mt-10 flex flex-col gap-6 rounded-2xl border border-slate-200 bg-surface p-6 lg:flex-row lg:items-end">
+          <div className="mt-10 flex flex-col gap-6 rounded-2xl border border-slate-200 bg-surface p-6 sm:flex-row sm:items-end">
             <div className="flex-1">
               <label className="mb-2 block text-sm font-medium text-primary">Brand</label>
               <div className="flex flex-wrap gap-2">
@@ -63,12 +63,12 @@ export default function LaptopSales() {
                 ))}
               </div>
             </div>
-            <div>
+            <div className="sm:min-w-[180px]">
               <label className="mb-2 block text-sm font-medium text-primary">Condition</label>
               <select
                 value={condition}
                 onChange={(e) => setCondition(e.target.value)}
-                className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm lg:min-w-[160px]"
+                className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm"
               >
                 {conditionFilters.map((c) => (
                   <option key={c} value={c}>
@@ -76,21 +76,6 @@ export default function LaptopSales() {
                   </option>
                 ))}
               </select>
-            </div>
-            <div className="lg:min-w-[200px]">
-              <label htmlFor="maxPrice" className="mb-2 block text-sm font-medium text-primary">
-                Max Price: ₹{maxPrice.toLocaleString('en-IN')}
-              </label>
-              <input
-                id="maxPrice"
-                type="range"
-                min={15000}
-                max={60000}
-                step={1000}
-                value={maxPrice}
-                onChange={(e) => setMaxPrice(Number(e.target.value))}
-                className="w-full accent-brand"
-              />
             </div>
           </div>
 
@@ -108,6 +93,8 @@ export default function LaptopSales() {
           )}
         </div>
       </section>
+
+      <NewLaptopsSection />
       <ContactCTA />
     </>
   );

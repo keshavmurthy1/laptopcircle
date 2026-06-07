@@ -1,6 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { formatPrice } from '@/utils/formatPrice';
 import { waProductInquiry } from '@/utils/whatsapp';
 import type { Laptop } from '@/data/laptops';
 
@@ -34,14 +33,9 @@ export function ProductCard({ laptop, index = 0 }: ProductCardProps) {
       <div className="flex flex-1 flex-col p-5">
         <h3 className="font-display text-lg font-semibold text-primary">{laptop.model}</h3>
         <p className="mt-2 text-sm text-slate-600">{laptop.specs}</p>
-        <div className="mt-3 flex items-center justify-between">
-          <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent-dark">
-            {laptop.condition}
-          </span>
-          <span className="font-display text-xl font-bold text-brand">
-            {formatPrice(laptop.price)}
-          </span>
-        </div>
+        <span className="mt-3 inline-flex w-fit rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent-dark">
+          {laptop.condition}
+        </span>
         <a
           href={waProductInquiry(laptop.model)}
           target="_blank"
