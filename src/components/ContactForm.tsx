@@ -89,13 +89,12 @@ export function ContactForm() {
       </div>
       <div>
         <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-primary">
-          Email *
+          Email 
         </label>
         <input
           id="email"
           name="email"
           type="email"
-          required
           className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20"
           placeholder="you@email.com"
         />

@@ -83,11 +83,11 @@ export default function Contact() {
                 </h3>
                 <dl className="mt-4 space-y-2 text-sm text-slate-600">
                   <div className="flex justify-between">
-                    <dt>Mon – Sat</dt>
+                    <dt>Monday - Thursday</dt>
                     <dd className="font-medium text-primary">{siteConfig.hours.weekdays}</dd>
                   </div>
                   <div className="flex justify-between">
-                    <dt>Sunday</dt>
+                    <dt>Friday - Sunday</dt>
                     <dd className="font-medium text-primary">{siteConfig.hours.sunday}</dd>
                   </div>
                 </dl>

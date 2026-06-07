@@ -34,6 +34,9 @@ export function HeroSection({ compact = false }: HeroSectionProps) {
             </p>
             {!compact && (
               <div className="mt-8 flex flex-wrap gap-4">
+                 <Link to="/laptop-sales" className="btn-primary  !border-white/30 !text-white hover:!bg-white/10 hover:!text-white">
+                  Browse Laptops / Desktops
+                </Link>
                 <Link to="/contact" className="btn-primary">
                   Book Repair
                   <HiArrowRight />
@@ -47,9 +50,7 @@ export function HeroSection({ compact = false }: HeroSectionProps) {
                   <FaWhatsapp className="text-xl" />
                   WhatsApp Us
                 </a>
-                <Link to="/laptop-sales" className="btn-secondary !border-white/30 !text-white hover:!bg-white/10 hover:!text-white">
-                  Browse Laptops
-                </Link>
+               
               </div>
             )}
           </motion.div>

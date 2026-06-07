@@ -21,7 +21,7 @@ export const pageMeta: Record<string, PageMeta> = {
   services: {
     title: `Laptop Services in Bengaluru | Repair, Upgrade & Servicing | ${siteConfig.name}`,
     description:
-      'Complete laptop services in Bengaluru — repair, MacBook servicing, SSD upgrade, RAM upgrade, screen replacement, data recovery, and general servicing with pickup & delivery.',
+      'Complete laptop services in Bengaluru — repair, MacBook servicing, RAM/SSD upgrade, Bios/Firmware Update, Annual maintenance contract(AMC), Screen replacement, Data recovery, and general servicing with pickup & delivery.',
     path: '/services',
     keywords: 'laptop service center Bengaluru, laptop repair near me',
   },

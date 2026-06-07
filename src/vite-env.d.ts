@@ -11,8 +11,8 @@ interface ImportMetaEnv {
   readonly VITE_EMAIL: string;
   readonly VITE_ADDRESS: string;
   readonly VITE_MAPS_EMBED_URL: string;
-  readonly VITE_HOURS_MON_SAT: string;
-  readonly VITE_HOURS_SUN: string;
+  readonly VITE_HOURS_MON_THU: string;
+  readonly VITE_HOURS_FRI_SUN: string;
   readonly VITE_EMAILJS_SERVICE_ID: string;
   readonly VITE_EMAILJS_TEMPLATE_ID: string;
   readonly VITE_EMAILJS_PUBLIC_KEY: string;

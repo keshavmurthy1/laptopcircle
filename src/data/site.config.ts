@@ -1,16 +1,16 @@
 export const siteConfig = {
   name: import.meta.env.VITE_BUSINESS_NAME || 'VENIRA LAPTOP CIRCLE',
   url: import.meta.env.VITE_SITE_URL || 'https://veniralaptopcircle.com',
-  phone: import.meta.env.VITE_PHONE || '+919876543210',
-  whatsapp: import.meta.env.VITE_WHATSAPP || '919876543210',
-  email: import.meta.env.VITE_EMAIL || 'contact@veniralaptopcircle.com',
-  address: import.meta.env.VITE_ADDRESS || 'Bengaluru, Karnataka, India',
+  phone: import.meta.env.VITE_PHONE || '+918867165553',
+  whatsapp: import.meta.env.VITE_WHATSAPP || '918867165553',
+  email: import.meta.env.VITE_EMAIL || 'contact@laptopcircle.in',
+  address: import.meta.env.VITE_ADDRESS || '#165, 1st Floor, 9th cross, 2nd main road, Sampige raod, malleshwaram, Bengaluru - 560003',
   mapsEmbedUrl:
     import.meta.env.VITE_MAPS_EMBED_URL ||
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE4LjAiTiA3N8KwMzUnNDAuNiJF!5e0!3m2!1sen!2sin!4v1',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5543233823714!2d77.56869527454708!3d13.0003327142487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23ce42d4c579%3A0x29bf29cf3ff19945!2sVENIRA%20LAPTOP%20CIRCLE!5e0!3m2!1sen!2sin!4v1780833842943!5m2!1sen!2sin',
   hours: {
-    weekdays: import.meta.env.VITE_HOURS_MON_SAT || '10:00 AM - 8:00 PM',
-    sunday: import.meta.env.VITE_HOURS_SUN || 'Closed',
+    weekdays: import.meta.env.VITE_HOURS_MON_THU || '10:30 AM - 9:00 PM',
+    sunday: import.meta.env.VITE_HOURS_SUN || '10:00 AM - 10:00 PM',
   },
   tagline: 'Reliable Laptop Sales & Services in Bengaluru',
   city: 'Bengaluru',
@@ -42,7 +42,7 @@ export const siteConfig = {
 export const navLinks = [
   { label: 'Home', path: '/' },
   { label: 'Services', path: '/services' },
-  { label: 'Laptop Sales', path: '/laptop-sales' },
+  { label: 'Sales', path: '/laptop-sales' },
   { label: 'About', path: '/about' },
   { label: 'Contact', path: '/contact' },
 ];
