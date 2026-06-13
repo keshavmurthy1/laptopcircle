@@ -34,13 +34,12 @@ export function Navbar() {
         className="container-custom flex items-center justify-between px-4 py-3 sm:px-6 lg:px-8"
         aria-label="Main navigation"
       >
-        <Link to="/" className="flex flex-col" onClick={() => setOpen(false)}>
-          <span className="font-display text-lg font-bold text-primary sm:text-xl">
-            VENIRA
-          </span>
-          <span className="text-[10px] font-medium tracking-widest text-brand sm:text-xs">
-            LAPTOP CIRCLE
-          </span>
+        <Link to="/" className="flex items-center" onClick={() => setOpen(false)}>
+          <img
+            src="/laptopcircle-logo.png"
+            alt="Venera Laptop Circle"
+            className="h-10 w-auto object-contain sm:h-12"
+          />
         </Link>
 
         <ul className="hidden items-center gap-8 lg:flex">
